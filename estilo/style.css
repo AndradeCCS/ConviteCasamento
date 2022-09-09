@@ -1,0 +1,48 @@
+@charset "UTF8";
+
+:root {
+    --cor-rosa: #BF7597;
+    --cor-azul-escuro:  #2C2E59;
+    --cor-azul: #416CA6;
+    --cor-azul-claro: #95A7BF;
+    --cor-rose: #F2A679;
+
+    --font-titulo: @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+    --font-texto: @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    min-height: 100vh;
+    background-color:var(--cor-rose);
+    font-family: var(--font-titulo);
+}
+
+section.imagem{
+    display: inline-block;
+    height: 45vw;
+    width: 99vw;    
+}
+
+#cabecalho {
+    background-image: url('../imagens/alianca.jpg');
+    background-position: center ;
+    
+}
+
+#convite{
+    background-image: url(../imagens/convite-casamento.gif);
+    background-repeat: no-repeat;
+    background-position: center;     
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
